@@ -5,6 +5,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.GridView;
+import android.widget.TextView;
 
 import sidespell.tech.viewholderquiz.R;
 
@@ -12,6 +14,9 @@ import sidespell.tech.viewholderquiz.R;
  * A placeholder fragment containing a {@link android.widget.GridView}.
  */
 public class GridViewFragment extends Fragment {
+
+    private GridView mGridView;
+    private TextView mTxtView;
 
     public static GridViewFragment newInstance() {
         return new GridViewFragment();
